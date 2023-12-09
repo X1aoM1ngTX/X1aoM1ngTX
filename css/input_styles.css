@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+body{
+	gap: 20px;					/*输入边框的上下距离*/
+	background: #000000;		/* 背景颜色 *//**/
+}
+
+.inputBox{
+	position: relative;
+	width: 400px;
+}
+
+.inputBox input{
+	width: 100%;
+	padding: 20px;
+	border: 4px solid #fafafa;	/* 输入边框的宽度,样式,颜色 */
+	background: #000000;        /* 输入边框内的颜色 */
+	border-radius: 10px;			/* 圆角 */
+	outline: none;
+	color: #fafafa;
+}
+
+.inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 23px;
+	pointer-events: none;
+	text-transform: uppercase;
+	color: rgb(0, 255, 0);		/* #Username和Password的颜色 */
+	transition: .1s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+	color: #00ff00;
+	transform: translateX(14px)    /* 向X轴+ */
+			   translateY(-10px);  /* 向Y轴- */
+	font-size: 20px;				/*缩放后字体大小*/
+	padding: 0 12px;
+	background: #000000;
+	letter-spacing: 4px;			/*缩放后字体间距*/
+}
