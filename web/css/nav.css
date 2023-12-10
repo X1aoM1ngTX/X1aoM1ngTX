@@ -1,51 +1,51 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    background: #2b2b2b;
+    margin: 0px; /* 设置元素的外边距为0 */
+    padding: 0px; /* 设置元素的填充为0 */
+    background: #2b2b2b; /* 设置元素的背景颜色为#2b2b2b */
 }
 
 ul {
-    list-style: none;
-    background: rgb(27, 27, 27);
-    text-align: end;
+    list-style: none; /* 移除无序列表的标记 */
+    background: rgb(27, 27, 27); /* 设置无序列表的背景颜色为rgb(27, 27, 27) */
+    text-align: end; /* 设置列表文本的对齐方式为右对齐 */
 }
 
 ul li {
-    display: inline-block;
-    position: relative;
+    display: inline-block; /* 将元素显示为行内块元素 */
+    position: relative; /* 设置元素的相对定位 */
 }
 
 ul li a {
-    background: rgb(27, 27, 27);
-    display: block;
-    padding: 25px 25px;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
+    background: rgb(27, 27, 27); /* 设置链接的背景颜色为rgb(27, 27, 27) */
+    display: block; /* 将元素显示为块元素 */
+    padding: 25px 25px; /* 设置元素的内边距 */
+    color: white; /* 设置链接的颜色为白色 */
+    text-decoration: none; /* 移除链接的下划线 */
+    font-size: 25px; /* 设置链接的字体大小为25px */
+    font-weight: bold; /* 设置链接的字体为粗体 */
+    text-align: center; /* 设置链接文本的居中对齐 */
 }
 
 .dropdown {
-    text-align: center;
-    color: white;
-    display: block;
-    width: 150px;
-    padding: 20px;
-    background: rgb(27, 27, 27);
-    position: absolute;
-    z-index: 1;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    top: 74px;
-    right: -45px;
-    display: none;
+    text-align: center; /* 设置文本的居中对齐 */
+    color: white; /* 设置文本的颜色为白色 */
+    display: block; /* 将元素显示为块元素 */
+    width: 150px; /* 设置元素的宽度为150px */
+    padding: 20px; /* 设置元素的内边距 */
+    background: rgb(27, 27, 27); /* 设置元素的背景颜色为rgb(27, 27, 27) */
+    position: absolute; /* 设置元素的绝对定位 */
+    z-index: 1; /* 设置元素的层叠上下文的堆叠顺序为1 */
+    border-bottom-left-radius: 20px; /* 设置元素的底部左圆角半径为20px */
+    border-bottom-right-radius: 20px; /* 设置元素的底部右圆角半径为20px */
+    top: 74px; /* 设置元素的上边界离文档顶部的距离为74px */
+    right: -45px; /* 设置元素的右边界离文档右边的距离为45px */
+    display: none; /* 将元素显示为隐藏 */
 }
 
 ul li a:hover {
-    color: rgb(78, 236, 170);
+    color: rgb(78, 236, 170); /* 鼠标悬停在链接上时，设置链接的颜色为rgb(78, 236, 170) */
 }
 
 ul li:hover ul.dropdown {
-    display: block;
-}
+    display: block; /* 鼠标悬停在列表项上时，将下拉菜单显示为块元素 */
+} 
