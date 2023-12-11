@@ -1,9 +1,60 @@
 * {
-    margin: 0; /* 设置元素的外边距为0 */
-    padding: 0; /* 设置元素的内边距为0 */
-    box-sizing: border-box; /* 设置元素的盒模型为border-box，包含边框的大小 */
-    font-family: sans-serif; /* 设置元素的字体为sans-serif */
+    margin: 0px; /* 设置元素的外边距为0 */
+    padding: 0px; /* 设置元素的填充为0 */
+    background: #2b2b2b; /* 设置元素的背景颜色为#2b2b2b */
 }
+
+header {
+    background: #2b2b2b; /* 设置元素的背景颜色为#2b2b2b */
+    height: 100px; /* 设置元素的高度为100px */
+    width: 100%; /* 设置元素的宽度为100% */
+    position: fixed; /* 设置元素的定位为固定 */
+
+ul {
+    list-style: none; /* 移除无序列表的标记 */
+    background: rgb(27, 27, 27); /* 设置无序列表的背景颜色为rgb(27, 27, 27) */
+    text-align: end; /* 设置列表文本的对齐方式为右对齐 */
+}
+
+ul li {
+    display: inline-block; /* 将元素显示为行内块元素 */
+    position: relative; /* 设置元素的相对定位 */
+}
+
+ul li a {
+    background: rgb(27, 27, 27); /* 设置链接的背景颜色为rgb(27, 27, 27) */
+    display: block; /* 将元素显示为块元素 */
+    padding: 25px 25px; /* 设置元素的内边距 */
+    color: white; /* 设置链接的颜色为白色 */
+    text-decoration: none; /* 移除链接的下划线 */
+    font-size: 25px; /* 设置链接的字体大小为25px */
+    font-weight: bold; /* 设置链接的字体为粗体 */
+    text-align: center; /* 设置链接文本的居中对齐 */
+}
+
+.dropdown {
+    text-align: center; /* 设置文本的居中对齐 */
+    color: white; /* 设置文本的颜色为白色 */
+    display: block; /* 将元素显示为块元素 */
+    width: 150px; /* 设置元素的宽度为150px */
+    padding: 20px; /* 设置元素的内边距 */
+    background: rgb(27, 27, 27); /* 设置元素的背景颜色为rgb(27, 27, 27) */
+    position: absolute; /* 设置元素的绝对定位 */
+    z-index: 1; /* 设置元素的层叠上下文的堆叠顺序为1 */
+    border-bottom-left-radius: 20px; /* 设置元素的底部左圆角半径为20px */
+    border-bottom-right-radius: 20px; /* 设置元素的底部右圆角半径为20px */
+    top: 74px; /* 设置元素的上边界离文档顶部的距离为74px */
+    right: -45px; /* 设置元素的右边界离文档右边的距离为45px */
+    display: none; /* 将元素显示为隐藏 */
+}
+
+ul li a:hover {
+    color: rgb(78, 236, 170); /* 鼠标悬停在链接上时，设置链接的颜色为rgb(78, 236, 170) */
+}
+
+ul li:hover ul.dropdown {
+    display: block; /* 鼠标悬停在列表项上时，将下拉菜单显示为块元素 */
+} 
 
 body {
     display: flex; /* 将元素显示为弹性布局 */
@@ -13,42 +64,18 @@ body {
     min-height: 100vh; /* 设置元素的最小高度为视口高度的100% */
 }
 
-body {
-    gap: 20px; /* 设置元素之间的间距为20px */
-    background: #000000; /* 设置背景颜色为黑色 */
-}
-
-.inputBox {
-    position: relative; /* 将元素的定位设置为相对定位 */
-    width: 400px; /* 设置元素的宽度为400px */
-}
-
-.inputBox input {
-    width: 100%; /* 设置元素的宽度为100% */
-    padding: 20px; /* 设置元素的内边距为20px */
-    border: 4px solid #fafafa; /* 设置元素的边框宽度为4px，样式为实线，颜色为#fafafa */
-    background: #000000; /* 设置元素的背景颜色为黑色 */
-    border-radius: 10px; /* 设置元素的圆角半径为10px */
-    outline: none; /* 取消元素的外边框 */
-    color: #fafafa; /* 设置元素的文本颜色为#fafafa */
-}
-
-.inputBox span {
-    position: absolute; /* 将元素的定位设置为绝对定位 */
-    left: 0; /* 将元素的左边界与左侧边界的距离设置为0 */
-    padding: 23px; /* 设置元素的内边距为23px */
-    pointer-events: none; /* 禁止元素的鼠标事件 */
-    text-transform: uppercase; /* 将元素的文本转换为大写 */
-    color: rgb(0, 255, 0); /* 设置文本的颜色为RGB(0, 255, 0) */
-    transition: .1s; /* 添加0.1秒的过渡效果 */
-}
-
-.inputBox input:valid~span,
-.inputBox input:focus~span {
-    color: #00ff00; /* 设置文本的颜色为RGB(0, 255, 0) */
-    transform: translateX(14px) translateY(-10px); /* 将元素在X轴上平移14px，在Y轴上平移-10px */
-    font-size: 20px; /* 设置元素的字体大小为20px */
-    padding: 0 12px; /* 设置元素的内边距为0 12px */
-    background: #000000; /* 设置元素的背景颜色为黑色 */
-    letter-spacing: 4px; /* 设置元素的字母间距为4px */
+.container {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 101%;
+    height: 100%;
+    z-index: var(--z-modal);
+    background-color: hsla(230, 75%, 15%, .1);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    padding: 8rem 1.5rem 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
 }
