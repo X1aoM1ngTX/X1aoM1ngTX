@@ -16,7 +16,7 @@ header ul {
     margin: 0;
     list-style: none; /* 移除无序列表的标记 */
     background: rgb(27, 27, 27); /* 设置无序列表的背景颜色为rgb(27, 27, 27) */
-    text-align: end; /* 设置列表文本的对齐方式为右对齐 */
+    text-align: right; /* 设置列表文本的对齐方式为右对齐 */
 }
 
 header ul li {
