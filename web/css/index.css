@@ -5,7 +5,7 @@
 }
 
 header {
-    background: #2b2b2b; /* 设置元素的背景颜色为#2b2b2b */
+    background: rgb(27, 27, 27); /* 设置元素的背景颜色为#2b2b2b */
     height: 100px; /* 设置元素的高度为100px */
     width: 100%; /* 设置元素的宽度为100% */
     position: fixed; /* 设置元素的定位为固定 */
@@ -24,7 +24,7 @@ ul li {
 ul li a {
     background: rgb(27, 27, 27); /* 设置链接的背景颜色为rgb(27, 27, 27) */
     display: block; /* 将元素显示为块元素 */
-    padding: 25px 25px; /* 设置元素的内边距 */
+    padding: 30px 25px; /* 设置元素的内边距 */
     color: white; /* 设置链接的颜色为白色 */
     text-decoration: none; /* 移除链接的下划线 */
     font-size: 25px; /* 设置链接的字体大小为25px */
