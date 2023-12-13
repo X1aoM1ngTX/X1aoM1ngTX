@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 600px;
+    height: 470px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #b1b0b0;
+}
+
+.inputbox {
+    position: relative;
+    width: 500px;
+}
+
+.inputbox input {
+    width: 400px;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2.5px solid #242323;
+    border-radius: 10px;
+    background: #ffffff;
+    outline: none;
+    color: #000000;
+    font-size: 25px;
+}
+
+.inputbox span {
+    position: absolute;
+    left: 110px;
+    top: 52px;
+    padding: 10px;
+    font-size: 25px;
+    pointer-events: none;
+    text-transform: uppercase;
+    color: #000000;
+    transition: .2s;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+    color: #000;
+    transform: translateX(6px)
+               translateY(-25px);
+    font-size: 25px;
+    padding: 0 10px;
+    background: #ffffff;
+    color: #46ffaf;
+    letter-spacing: 4px;
+}
+
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.login-register-button {
+    width: 400px;
+    height: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: none;
+    border-radius: 10px;
+    background: #1a1a1a;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.login-register-button:hover {
+    color: #46ffaf;
+}
+
+.forget-button {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #1a1a1a;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.forget-button:hover {
+    color: #46ffaf;
+}

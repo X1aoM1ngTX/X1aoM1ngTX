@@ -60,25 +60,25 @@ ul li:hover ul.dropdown {
 } 
 
 .container {
-    margin: 260px auto;
-    padding: 0;
-    width: 300px;
-    background-color: #00000000;
-    border-radius: 10px;
+    margin: 260px auto;                /* 容器上下边距为260px，水平居中 */
+    padding: 0;                         /* 内边距为0 */
+    width: 300px;                       /* 宽度为300px */
+    background-color: #00000000;       /* 背景颜色为透明 */
+    border-radius: 10px;                 /* 上右下左为10px的圆角 */
 }
 
 .inputBox {
-    margin-bottom: 20px;
+    margin-bottom: 20px;                /* 输入框底部边距为20px */
 }
 
 .inputBox input {
-    width: 100%;
-    padding: 15px;
-    border: 0px;
-    border-radius: 10px;
+    width: 100%;                       /* 输入框宽度为100% */
+    padding: 15px;                      /* 输入框内边距为15px */
+    border: 0px;                        /* 输入框边框为0px */
+    border-radius: 10px;                 /* 输入框上下左右为10px的圆角 */
 }
 
 .inputBox span {
-    font-size: 12px;
-    color: #888;
+    font-size: 25px;                    /* 字体大小为12px */
+    color: #000000;                        /* 字体颜色为#888 */
 }
