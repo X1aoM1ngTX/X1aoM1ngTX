@@ -153,6 +153,12 @@ nav a:hover {
     border-radius: 10%;
 }
 
+.list_box li img:hover {
+    transform: scale(1.07);
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
 .list2 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -487,7 +493,7 @@ tbody tr td {
 }
 
 .zixun1_img_txt p:nth-child(1) {
-    color: #666;
+    color: #000000;
     font-size: 14px;
 }
 
@@ -533,13 +539,15 @@ tbody tr td {
 }
 
 .zixun1_img_txt2 {
+    background-color: hsla(0, 0%, 100%, 0.784);
     position: relative;
-    margin-top: 160px;
+    margin-top: 153px;
     color: #fff;
+    padding-bottom: 100px;
 }
 
 .zixun1_img_txt2 p:nth-child(1) {
-    color: #fff;
+    color: #000000;
 }
 
 .zixun1_state2 {
@@ -547,13 +555,13 @@ tbody tr td {
 }
 
 .zixun1_state2 span:nth-child(1) {
-    background: url(../images/zan2.png) no-repeat;
+    background: url(../images/zan.png) no-repeat;
     background-size: 16px;
     background-position: left center;
 }
 
 .zixun1_state2 span:nth-child(2) {
-    background: url(../images/cai2.png) no-repeat;
+    background: url(../images/cai.png) no-repeat;
     background-size: 14px;
     background-position: left center;
 }
