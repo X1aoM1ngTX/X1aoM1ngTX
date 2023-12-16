@@ -22,9 +22,9 @@ html {
 
 nav {
     text-align: center;
-    background: #141414;
+    background: #3c3c3c;
     text-align: center;
-    border-bottom: #333 5px solid;
+    border-bottom: #8b8b8b 5px solid;
 }
 
 nav a {
@@ -679,5 +679,6 @@ nav a:hover {
     }
     nav {
         border-bottom: #46ffaf 5px solid;
+        background-color: #141414;
     }
 }
