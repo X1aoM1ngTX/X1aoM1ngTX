@@ -19,12 +19,14 @@ main {
     height: 470px;
     background-color: #fff;
     border-radius: 10px;
+    border: #46ffaf 2px solid;
     box-shadow: 0 0 10px 1px #b1b0b0;
 }
 
 .inputbox {
     position: relative;
     width: 500px;
+    border-top-left-radius: 200px;
 }
 
 .inputbox input {
@@ -43,27 +45,26 @@ main {
 
 .inputbox span {
     position: absolute;
-    left: 110px;
-    top: 52px;
-    padding: 10px;
-    font-size: 25px;
+    left: 120px;
+    top: 65px;
+    padding: 0 10px;
+    font-size: 18px;
     pointer-events: none;
     text-transform: uppercase;
     color: #000000;
-    transition: .2s;
+    transition: all .2s ease-in-out;
 }
 
 .inputbox input:valid ~ span,
 .inputbox input:focus ~ span {
     color: #000;
-    transform: translateX(6px)
+    transform: translateX(0px)
                translateY(-25px);
-    font-size: 25px;
     padding: 0 10px;
-    background: #ffffff;
-    color: #46ffaf;
-    letter-spacing: 4px;
+    background: #fff;
+    color: #000;
 }
+
 
 .loginbox {
     display: flex;
@@ -80,7 +81,7 @@ main {
     margin-right: 20%;
     border: none;
     border-radius: 10px;
-    background: #1a1a1a;
+    background: #222222;
     color: #ffffff;
     font-size: 25px;
 }
@@ -97,11 +98,42 @@ main {
     height: 50px;
     border: none;
     border-radius: 10px;
-    background: #1a1a1a;
+    background: #222222;
     color: #ffffff;
     font-size: 25px;
 }
 
 .forget-button:hover {
     color: #46ffaf;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #141414;
+    }
+    .login {
+        background-color: #141414;
+        box-shadow: 0 0 10px 1px #90958f;
+    }
+    .inputbox input {
+        background-color: #141414;
+        color: #fff;
+        border-color: #fff;
+    }
+    .inputbox span {
+        color: #fff;
+    }
+    .inputbox input:valid ~ span,
+    .inputbox input:focus ~ span {
+        background: #141414;
+        color: #46ffaf;
+    }
+    .login-register-button:hover {
+        color: #46ffaf;
+    }nav a:hover {
+        color: #46ffaf;
+    }
+    .forget-button:hover {
+        color: #46ffaf;
+    }
 }

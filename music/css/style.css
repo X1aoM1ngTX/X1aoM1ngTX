@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
-    color: #333333;
+    color: #000;
 }
 
 html::-webkit-scrollbar {
@@ -245,7 +245,6 @@ nav a:hover {
 .main_left {
     float: left;
     width: 260px;
-    border-right: 1px dotted #5BC8FB;
     box-sizing: border-box;
     padding-right: 10px;
 }
@@ -254,13 +253,14 @@ nav a:hover {
     display: block;
     text-align: left;
     height: 60px;
+    border-radius: 12px;
     padding: 10px 10px;
     text-decoration: none;
     line-height: 30px;
 }
 
 .main_left a span {
-    color: #666;
+    color: #444444;
     font-size: 12px;
     display: inline-block;
     margin-top: 1px;
@@ -307,6 +307,7 @@ nav a:hover {
 .main_left a img {
     float: left;
     width: 60px;
+    border-radius: 5px;
     margin-right: 10px;
 }
 
@@ -316,10 +317,10 @@ nav a:hover {
     width: 680px;
 }
 
-
 .right_title img {
     float: left;
     width: 150px;
+    border-radius: 10px;
 }
 
 .list_title {
@@ -388,21 +389,24 @@ nav a:hover {
     border-bottom: 1px solid #979797;
 }
 
-.table tbody tr:nth-child(2n) {
-    background-color: #F7F7F7;
+.table tbody tr {
+    width: 700px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #fff;
 }
 
-.table tbody tr {
-    font-size: 14px;
+.table tbody tr:hover {
+    background-color: #cccaca;
 }
 
 .table tbody tr td:nth-child(3) {
     color: #999999;
 }
 
-.table thead tr th,
-tbody tr td {
+.table thead tr th,tbody tr td {
     padding: 0px 10px;
+    background-color: #00000000;
 }
 
 .table_title {
@@ -492,6 +496,11 @@ tbody tr td {
     padding: 10px;
 }
 
+.zixun1_img_txt p a {
+    text-decoration: none;
+    color: #000;
+}
+
 .zixun1_img_txt p:nth-child(1) {
     color: #000000;
     font-size: 14px;
@@ -564,4 +573,111 @@ tbody tr td {
     background: url(../images/cai.png) no-repeat;
     background-size: 14px;
     background-position: left center;
+}
+
+@media (prefers-color-scheme: dark) {
+    *{
+        color: #fff;
+        background-color: #141414;
+    }
+    .main {
+        color: #fff;
+        background-color: #141414;
+    }
+    .title_main {
+        border-bottom-color: #46ffaf;
+    }
+    .list2 li p:nth-child(2n-1) {
+        background-color: #202020;
+    }
+    .list2 li p:nth-child(2n) {
+        background-color: #3c3c3c;
+    }
+    .list2 li p:nth-child(-n+4) span {
+        background-color: #3c3c3c00;
+    }
+    .list2 li p:nth-child(2n) a {
+        background-color: #3c3c3c00;
+    }
+    .list2 li p span {
+        background-color: #3c3c3c00;
+    }
+    .slider-indicators {
+        background-color: #00000000;
+    }
+    .arrow {
+        background-color: #00000000;;
+    }
+    .table tbody tr {
+        background-color: #141414;
+    }
+    .table tbody tr:hover {
+        background-color: #262626;
+    }
+    .main_left a span {
+        color: #fff;
+        background-color: #00000000;
+    }
+    .list_title p:nth-child(1) {
+        color: #fff;
+    }
+    .list_title p:nth-child(2) {
+        color: #fff;
+    }
+    .fontsiz span:nth-child(1) {
+        color: #ffffff;
+        background-color: #141414;
+        border-color: #fff;
+    }
+    .fontsiz span:nth-child(2) {
+        color: #ffffff;
+        background-color: #141414;
+        border-color: #fff;
+    }
+    .zixun1_img_txt p:nth-child(1) {
+        color: #fff;
+        background-color: #20202000;
+    }
+    .zixun1_img_txt p {
+        background-color: #20202000;
+    }
+    .zixun1_img_txt p a {
+        background-color: #20202000;
+    }
+    .zixun li {
+        background-color: #202020;
+    }
+    .zixun1_img_txt {
+        background-color: #202020;
+    }
+    .zixun1_img_txt2 {
+        background-color: #202020cf;
+    }
+    .zixun1_state {
+        background-color: #20202000;
+    }
+    .zixun1_state span:nth-child(1) {
+        background: url(../images/zan2.png) no-repeat;
+        background-size: 16px;
+        padding-left: 20px;
+        font-size: 14px;
+        background-position: left center;
+    }
+    .zixun1_state span:nth-child(2) {
+        background: url(../images/cai2.png) no-repeat;
+        background-size: 14px;
+        padding-left: 20px;
+        font-size: 14px;
+        background-position: left center;
+        margin-left: 20px;
+    }
+    .zixun1_img_txt p a{
+        color: #fff;
+    }
+    .zixun1_img_txt p a:hover {
+        color: #46ffaf;
+    }
+    nav {
+        border-bottom: #46ffaf 5px solid;
+    }
 }
