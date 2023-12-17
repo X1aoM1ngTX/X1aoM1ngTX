@@ -51,3 +51,5 @@ indicators.forEach((indicator, index) => {
 
 // 每隔2000毫秒调用一次nextSlide函数，实现自动切换图片
 setInterval(nextSlide, 5000); // 切换间隔，单位：毫秒
+
+

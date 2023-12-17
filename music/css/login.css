@@ -112,23 +112,38 @@ main {
         background-color: #141414;
     }
     .login {
-        background-color: #141414;
+        background-color: #242424;
         border: #46ffaf;
+        border: rgba(70, 255, 175, 0.772) 2px solid;
         box-shadow: 0 0 10px 1px #46ffaf;
     }
+    .loginbox {
+        background-color: #242424;
+    }
+    .inputbox{
+        background-color: #242424;
+    }
     .inputbox input {
-        background-color: #141414;
+        background-color: #242424;
         color: #4b4b4b;
         border-color: #4b4b4b;
     }
     .inputbox span {
         color: #fff;
+        background-color: #242424;
     }
     .inputbox input:valid ~ span,
     .inputbox input:focus ~ span {
-        background: #141414;
+        background: #242424;
         color: #46ffaf;
     }
+    .login-register-button {
+        background-color: #4b4b4b;
+    }
+    .forget-button {
+        background-color: #4b4b4b;
+    }
+
     .login-register-button:hover {
         color: #46ffaf;
     }nav a:hover {

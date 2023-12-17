@@ -16,6 +16,10 @@ html {
     background-color: #ffffff;
 }
 
+body {
+    transition: all.2s ease-in-out;
+}
+
 .clear {
     clear: both;
 }
@@ -23,7 +27,6 @@ html {
 nav {
     text-align: center;
     background: #3c3c3c;
-    text-align: center;
     border-bottom: #8b8b8b 5px solid;
 }
 
@@ -40,6 +43,42 @@ nav a:hover {
     color: #46ffaf;
     font-weight: bold;
 }
+
+.ios-switch {
+    display: none;
+  }
+  
+  .switch-label {
+    display: inline-block;
+    top: 7px;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #d3d3d3;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  .switch-label::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+  }
+  
+  .ios-switch:checked + .switch-label {
+    background-color: #46ffaf;
+  }
+  
+  .ios-switch:checked + .switch-label::before {
+    transform: translateX(30px);
+  }
 
 /* 轮播图 */
 .banner {
@@ -155,8 +194,12 @@ nav a:hover {
 
 .list_box li img:hover {
     transform: scale(1.07);
-    transition: all 0.15s ease-in-out;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px 0px #636363;
+}
+
+.list_box li p {
+    padding-top: 12px;
 }
 
 .list2 {
@@ -575,6 +618,20 @@ nav a:hover {
     background-position: left center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dark mode */
 @media (prefers-color-scheme: dark) {
     *{
         color: #fff;
@@ -623,6 +680,9 @@ nav a:hover {
     }
     .list_title p:nth-child(2) {
         color: #fff;
+    }
+    .list_box li img:hover {
+        box-shadow: 0 0 20px 0px #46ffaf5c;
     }
     .fontsiz span:nth-child(1) {
         color: #ffffff;
