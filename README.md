@@ -1,7 +1,6 @@
 👋嗨，我是小茗同学@X1aoM1ngTX
-👀 我有兴趣...
-🌱我现在正在学习...
-📫 如何联系我...
+🌱我现在正在学习JavaSE 和 Vue.js
+📫联系我(xmtx8yyds@outlook.com)
 
 <!---
 X1aoM1ngTX/X1aoM1ngTX is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
