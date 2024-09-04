@@ -46,6 +46,7 @@ ul li a {
     top: 74px; /* 设置元素的上边界离文档顶部的距离为74px */
     right: -45px; /* 设置元素的右边界离文档右边的距离为45px */
     display: none; /* 将元素显示为隐藏 */
+    z-index: 1; /* 设置元素的层叠上下文的堆叠顺序为10 */;
 }
 
 ul li a:hover {
@@ -55,3 +56,4 @@ ul li a:hover {
 ul li:hover ul.dropdown {
     display: block; /* 鼠标悬停在列表项上时，将下拉菜单显示为块元素 */
 } 
+}
