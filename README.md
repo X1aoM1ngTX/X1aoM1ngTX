@@ -1,7 +1,3 @@
-Certainly! Here's the optimized version of your GitHub repository introduction in English:
-
----
-
 # 🚀 Full-Stack Development Learning Journey: Java & Vue.js
 
 Welcome to my GitHub repository, where I document my journey through the world of full-stack development with Java for the backend and Vue.js for the frontend. This is a personal space where I track projects and notes from my learning process in both Java and Vue.js.
@@ -9,16 +5,16 @@ Welcome to my GitHub repository, where I document my journey through the world o
 ## 📚 Java Backend Development
 
 - **Java Basics**: Learning the basic syntax and core concepts of the Java language.
-- **Java Web**: Mastering Java Web development technologies, including Servlets and JSP.
-- **Spring MVC**: Studying the use of the Spring MVC framework to build web applications.
-- **Spring Boot**: Learning how to use Spring Boot to create scalable and production-ready applications.
-- **Spring Security**: Implementing authentication and authorization in Java applications.
+- **Java Web**: Mastering Java Web development technologies, including Servlets and JSP./Still learning
+- **Spring MVC**: Studying the use of the Spring MVC framework to build web applications./Still learning
+- **Spring Boot**: Learning how to use Spring Boot to create scalable and production-ready applications./Still learning
+- **Spring Security**: Implementing authentication and authorization in Java applications./Still learning
 
 ## 📚 Vue.js Frontend Development
 
 - **Vue Fundamentals**: Mastering the basics of Vue.js, including components, directives, and reactivity.
-- **Vue Router**: Learning how to use Vue Router to create single-page applications.
-- **Vuex**: Managing state in Vue.js applications using Vuex.
+- **Vue Router**: Learning how to use Vue Router to create single-page applications./Still learning
+- **Vuex**: Managing state in Vue.js applications using Vuex./Still learning
 
 ## 📈 Learning Resources
 
