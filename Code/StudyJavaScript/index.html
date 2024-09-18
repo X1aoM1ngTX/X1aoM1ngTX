@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        function checkPassWord(e) {
+            if (e.value.length < 6) {
+                e.setAttribute('class', 'password');
+            } else {
+                e.removeAttribute('class');
+            }
+        }
+
+        const {createApp} = Vue;
+        const app = createApp({
+            data() {
+                return {
+                    msg: 'Hello Vue 3.0!'
+                }
+            },
+        })
+        app.mount('#app')
+    </script>
+    <style>
+        .password {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <input oninput="checkPassWord(this)" placeholder="Password" type="password"/>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+9月 15, 2024 4:30:46 下午 com.xmcode.Main lambda$addBook$1
+信息: Add A Book: Book(bid=0, title=Element, main=Plus, price=20.0)
+9月 15, 2024 4:42:52 下午 com.xmcode.Main lambda$addBorrow$2
+信息: Add A Borrow: 5 -> 3
+9月 16, 2024 1:40:39 下午 com.xmcode.Main lambda$addBorrow$2
+信息: Add A Borrow: 6 -> 4
+9月 16, 2024 1:41:09 下午 com.xmcode.Main lambda$addBorrow$2
+信息: Add A Borrow: 5 -> 1
