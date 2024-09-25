@@ -7,14 +7,16 @@ Welcome to my GitHub repository, where I document my journey through the world o
 - **Java Basics**: Learning the basic syntax and core concepts of the Java language.
 - **Java Web**: Mastering Java Web development technologies, including Servlets and JSP.(Still learning)
 - **Spring MVC**: Studying the use of the Spring MVC framework to build web applications.(Still learning)
-- **Spring Boot**: Learning how to use Spring Boot to create scalable and production-ready applications.(Still learning)
-- **Spring Security**: Implementing authentication and authorization in Java applications.(Still learning)
+- **Spring Boot**: Learning how to use Spring Boot to create scalable and production-ready applications.(Planning)
+- **Spring Security**: Implementing authentication and authorization in Java applications.(Planning)
 
 ## 📚 Vue.js Frontend Development
 
 - **Vue Fundamentals**: Mastering the basics of Vue.js, including components, directives, and reactivity.
 - **Vue Router**: Learning how to use Vue Router to create single-page applications.(Still learning)
-- **Vuex**: Managing state in Vue.js applications using Vuex.(Still learning)
+- **Vuex**: Managing state in Vue.js applications using Vuex.(Planning)
+- **Element Plus**:(Still learning)
+- **Electron**:(Still learning)
 ## 📈 Learning Resources
 
 - **Online Courses**: Links to the online full-stack development courses I've taken.
@@ -37,10 +39,6 @@ If you're also interested in full-stack development with Java and Vue.js, feel f
 
 If you have any questions or suggestions, feel free to reach out to me via:
 - **Email**: xmtx8yyds@outlook.com
-
-Let's explore and grow together in the world of full-stack development with Java and Vue.js!
-
----
 
 Remember to replace the placeholder links and email with your actual GitHub profile and contact information. Adjust the content to reflect the specific Java and Vue.js topics and projects you are working on.
 
