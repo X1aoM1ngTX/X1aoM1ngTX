@@ -39,6 +39,5 @@ If you're also interested in full-stack development with Java and Vue.js, feel f
 
 If you have any questions or suggestions, feel free to reach out to me via:
 - **Email**: xmtx8yyds@outlook.com
-
-Remember to replace the placeholder links and email with your actual GitHub profile and contact information. Adjust the content to reflect the specific Java and Vue.js topics and projects you are working on.
+- 
 
