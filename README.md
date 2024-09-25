@@ -5,17 +5,16 @@ Welcome to my GitHub repository, where I document my journey through the world o
 ## 📚 Java Backend Development
 
 - **Java Basics**: Learning the basic syntax and core concepts of the Java language.
-- **Java Web**: Mastering Java Web development technologies, including Servlets and JSP./Still learning
-- **Spring MVC**: Studying the use of the Spring MVC framework to build web applications./Still learning
-- **Spring Boot**: Learning how to use Spring Boot to create scalable and production-ready applications./Still learning
-- **Spring Security**: Implementing authentication and authorization in Java applications./Still learning
+- **Java Web**: Mastering Java Web development technologies, including Servlets and JSP.(Still learning)
+- **Spring MVC**: Studying the use of the Spring MVC framework to build web applications.(Still learning)
+- **Spring Boot**: Learning how to use Spring Boot to create scalable and production-ready applications.(Still learning)
+- **Spring Security**: Implementing authentication and authorization in Java applications.(Still learning)
 
 ## 📚 Vue.js Frontend Development
 
 - **Vue Fundamentals**: Mastering the basics of Vue.js, including components, directives, and reactivity.
-- **Vue Router**: Learning how to use Vue Router to create single-page applications./Still learning
-- **Vuex**: Managing state in Vue.js applications using Vuex./Still learning
-
+- **Vue Router**: Learning how to use Vue Router to create single-page applications.(Still learning)
+- **Vuex**: Managing state in Vue.js applications using Vuex.(Still learning)
 ## 📈 Learning Resources
 
 - **Online Courses**: Links to the online full-stack development courses I've taken.
